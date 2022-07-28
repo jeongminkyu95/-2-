@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    font-family:'KyoboHandwriting2020A';
+}
+
+body{
+    height: fit-content;
+    width: fit-content;
+    background-color: #06283d;
+    background-image: url('wave3.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: auto;
+    height: 100px
+    /* float: left; */
+    /* background-color: #1363DF; */
+    /* background-image: url('head1.png'); */
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* border-radius: 30px; */
+    /* position: fixed; */
+}
+
+#title {
+    display: inline;
+    width: 50%;
+    height: 100px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+}
+
+#title h1 {
+    color: #DFF6FF;
+}
+
+#nav {
+    display: inline;
+    width: 50%;
+    height: 100px;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}
+
+#top {
+    padding-top: 5px;
+    background-color: #DFF6FF;
+    color: #06283d;
+    width: 10px;
+    height: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#end {
+    padding-top: 5px;
+    background-color: #dff6ff;
+    color: #06283d;
+    width: 10px;
+    height: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+header ul {
+    padding-top: 25px;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 40px;
+    width: 300px;
+    
+}
+
+
+.basicInformation {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 100px;
+    margin : 100px 100px 100px 100px;
+}
+
+article .information {
+    margin : 135px 100px 100px 100px;
+    font-size: 30px;
+}
+
+.information p {
+    color: #DFF6FF;
+}
+
+.likes {
+    display: flex;
+    /* width: auto; */
+    height: 100vh;
+    justify-content: center;
+    /* border: solid; */
+    /* border-radius: 100px; */
+    /* border-color: #DFF6FF; */
+    background-image: url('wave2.png');
+    background-size: cover;
+    
+}
+
+#like {
+    margin: 80px 300px 0 0;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #06283D;
+    border-radius: 30px;
+}
+
+#like h3 {
+    margin-top: 5px;
+    color: #DFF6FF
+}
+
+#likelist {
+    margin-right: 100px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#likelist li {
+    color: #06283D;
+}
+
+
+.goals {
+    margin-top: 50px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-image: url('wave2.png');
+    background-size: cover;
+}
+
+#goal {
+    margin: 80px 300px 0 0;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #06283D;
+    border-radius: 30px;
+}
+
+#goal h3 {
+    margin-top: 5px;
+    color: #DFF6FF;
+}
+
+#goallist {
+    margin-top: 20px;
+    margin-right: 80px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#goallist p {
+    color: #06283D;
+}
+
+.sns {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-right: 50px;
+}
+
+#insta img{
+    width: 40%;
+    background-color: #DFF6FF;
+}
+
+#blank1 img{
+    width: 40%;
+    background-color: #DFF6FF;
+}
+
+#blank2 img{
+    width: 40%;
+    background-color: #DFF6FF;
+    
+}
+
+@media (max-width:800px) {
+
+    body{
+        height: auto;
+        width: fit-content;
+        padding-left: 0px;
+        padding: auto;
+        background-image: url('wave.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .basicInformation {
+        padding-top: 50px;
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: fit-content;
+        
+    }
+    
+    img {
+        width: 300px;
+        border-radius: 100px;
+        margin : 100px 100px 100px 100px;
+    }
+    
+    article .information {
+        margin : 0px 100px 100px 100px;
+        font-size: 30px;
+        display: block;
+    }
+    
+    .likes {
+        display: block;
+        justify-content: center;
+        margin: 0px;
+        padding: auto;
+        text-align: center;
+        border: solid;
+        border-radius: 100px;
+        border-color: rgb(104, 150, 14);
+    }
+    
+    #like {
+        margin: auto;
+        font-size: 30px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        background-color: slateblue;
+        border-radius: 30px;
+    
+    }
+    
+    #like h3 {
+        margin-top: 5px;
+    }
+    
+    #likelist {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .likes ul li {
+        display: inline;
+    }
+    
+    
+    .goals {
+        margin-top: 50px;
+        padding: auto;
+        display: block;
+        height: 200px;
+        justify-content: center;
+        border: solid;
+        border-radius: 100px;
+        border-color: rgb(104, 150, 14);
+    }
+    
+    #goal {
+        margin: auto;
+        font-size: 30px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        background-color: slateblue;
+        border-radius: 30px;
+    }
+    
+    #goal h3 {
+        margin-top: 5px;
+    }
+    
+    #goallist {
+        margin: auto;
+        display: inline;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .sns {
+        width: fit-content;
+        display: inline-flex;
+        margin-right: 0px;
+    }
+    
+    #insta {
+        width: 15px;
+    }
+
+    #blank1 {
+        width: 15px;
+    }
+
+    #blank2 {
+        width: 15px;
+    }
+
+    #insta img{
+        width: 10%;
+    }
+    
+    #blank1 img{
+        width: 10%;
+    }
+    
+    #blank2 img{
+        width: 10%;
+        
+    }
+}
+
